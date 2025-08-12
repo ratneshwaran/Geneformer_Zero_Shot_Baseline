@@ -20,6 +20,7 @@ The following cancer datasets are being evaluated:
 - **Ovarian Cancer** (`Geneformer_binary_ovarian_malignancy.ipynb`)
 - **Pancreatic Cancer** (`Geneformer_binary_pancreas_malignancy.ipynb`) 
 - **Prostate Cancer** (`Geneformer_binary_prostate_malignancy.ipynb`)
+- **Kidney Cancer** (`Geneformer_binary_kidney_malignancy.ipynb`)
 - **Integrated Multi-Cancer** (`Geneformer_binary_integrated_malignancy.ipynb`)
 
 ### Multi-Class Cell Type Classification
@@ -68,6 +69,7 @@ output/
     ├── ovarian_binary/
     ├── pancreas_binary/
     ├── prostate_binary/
+    ├── kidney_binary/
     └── integrated_binary/
 ```
 
