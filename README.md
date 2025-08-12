@@ -21,14 +21,14 @@ The following cancer datasets are being evaluated:
 - **Pancreatic Cancer** (`Geneformer_binary_pancreas_malignancy.ipynb`) 
 - **Prostate Cancer** (`Geneformer_binary_prostate_malignancy.ipynb`)
 - **Kidney Cancer** (`Geneformer_binary_kidney_malignancy.ipynb`)
-- **Integrated Multi-Cancer** (`Geneformer_binary_integrated_malignancy.ipynb`)
+- **Integrated Multi-Cancer (Breast)** (`Geneformer_binary_integrated_malignancy.ipynb`)
 
 ### Multi-Class Cell Type Classification
 - **Ovarian Cancer** (`Geneformer_zero_shot_ovarian_baseline.ipynb`)
 - **Pancreatic Cancer** (`Geneformer_zero_shot_pancreas_baseline.ipynb`)
 - **Prostate Cancer** (`Geneformer_zero_shot_prostate_baseline.ipynb`)
 - **Kidney Cancer** (`Geneformer_zero_shot_kidney_baseline.ipynb`)
-- **Integrated Multi-Cancer** (`Geneformer_zero_shot_integrated_baseline.ipynb`)
+- **Integrated Multi-Cancer (Breast)** (`Geneformer_zero_shot_integrated_baseline.ipynb`)
 
 ## Key Modifications
 
