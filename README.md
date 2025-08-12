@@ -6,7 +6,7 @@ This repository is a fork of Microsoft's [zero-shot-scfoundation](https://github
 
 ## Research Purpose
 
-This adapted version is being used to establish baseline performance metrics for foundation models (Geneformer and scGPT) across multiple cancer datasets as part of dissertation research. The focus is on evaluating zero-shot capabilities for:
+This adapted version is being used to establish baseline performance metrics for foundation models (Geneformer V2 CLcancer and scGPT) across multiple cancer datasets as part of dissertation research. The focus is on evaluating zero-shot capabilities for:
 
 1. **Binary malignancy classification** - Distinguishing malignant vs. non-malignant cells
 2. **Cell type annotation** - Multi-class cell type identification
@@ -48,7 +48,8 @@ The following cancer datasets are being evaluated:
 - **Automated binary label generation** from cell type annotations using regex patterns
 - **Data validation and cleaning** to handle missing values and edge cases
 - **Consistent preprocessing** across multiple cancer datasets
-- **Tokenization and embedding extraction** optimized for Geneformer models
+- **Tokenization and embedding extraction** optimized for Geneformer V2 CLcancer model
+- **Cancer-specific model evaluation** using the specialized Geneformer variant trained on cancer data
 
 ## Repository Structure
 
@@ -133,7 +134,7 @@ The repository maintains compatibility with the original dependencies:
 - CUDA 11.7+
 - FlashAttention v1.0.4
 - scGPT v0.1.6
-- Geneformer (commit 5d0082c)
+- Geneformer V2 CLcancer model (Geneformer-V2-104M_CLcancer)
 - scIB v1.0.4
 
 ## Installation
