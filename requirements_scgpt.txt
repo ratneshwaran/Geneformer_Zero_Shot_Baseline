@@ -1,0 +1,39 @@
+# scGPT Virtual Environment Requirements
+# Core dependencies with specific versions for compatibility
+
+# PyTorch ecosystem
+torch
+torchvision
+torchaudio
+torchtext
+
+# scGPT and related packages
+scgpt==0.2.4
+transformers==4.35.2
+
+# Scientific computing
+numpy
+pandas
+scipy
+scikit-learn
+
+# Single-cell analysis
+anndata==0.9.2
+scanpy
+scib
+scvi-tools
+
+# Visualization
+matplotlib==3.7.1
+seaborn
+PyComplexHeatmap
+
+# Utilities
+tqdm
+colorlog==6.7.0
+geneformer==0.0.1
+
+# Additional dependencies that may be needed
+ipywidgets
+jupyter
+notebook 

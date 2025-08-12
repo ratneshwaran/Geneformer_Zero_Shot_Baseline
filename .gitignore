@@ -1,0 +1,235 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# PEP 582
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# ====================================
+# Project-specific ignores
+# ====================================
+
+# Data directories
+data/
+datasets/
+raw_data/
+processed_data/
+
+# Cache directories
+cache/
+.cache/
+notebooks/cache/
+**/cache/
+
+# Virtual environments
+new_venv/
+scgpt_venv/
+venv_cache/
+envs/
+conda-envs/
+
+# Model files and checkpoints
+*.pkl
+*.pt
+*.pth
+*.h5
+*.hdf5
+*.model
+*.bin
+checkpoints/
+models/
+pretrained/
+
+# Output directories
+output/
+outputs/
+results/
+logs/
+experiments/
+
+# Large files
+*.tar
+*.tar.gz
+*.tar.bz2
+*.zip
+*.7z
+*.rar
+Miniconda3-*.sh
+*.conda
+*.whl
+
+# HuggingFace cache
+.huggingface/
+transformers_cache/
+
+# Weights & Biases
+wandb/
+
+# MLflow
+mlruns/
+
+# TensorBoard
+runs/
+logs/
+
+# Geneformer specific
+Geneformer/
+geneformer/
+token_dictionary/
+
+# scGPT specific
+scGPT/
+
+# Temporary files
+*.tmp
+*.temp
+.tmp/
+tmp/
+
+# OS specific
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE specific
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter notebook outputs (optional - uncomment if you want to ignore outputs)
+# *.ipynb
+
+# Large datasets and archives
+*.h5ad
+*.loom
+*.mtx
+*.csv.gz
+*.tsv.gz
+*.parquet
+
+# Conda/pip cache
+.conda/
+.pip/
